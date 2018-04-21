@@ -12,7 +12,7 @@ sudo npm install -g bower
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 sudo apt-get install php7.0-xml -y
-sudo apt-get install software-properties-common
+sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update -y 
 sudo apt-get install php7.1 -y 
