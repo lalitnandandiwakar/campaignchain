@@ -1,29 +1,16 @@
 sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install git -y 
 sudo git clone https://lalitnandandiwakar@bitbucket.org/lalitnandandiwakar/campaignchain.git
-#cd campaignchain 
-#sudo apt-get install php
 sudo apt-get install php -y
 sudo apt-get install php-json php-curl php-pdo php-gd php-intl -y
 sudo apt-get install mysql-server -y 
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-get update -y
 sudo apt-get -y install oracle-java8-installer
-java -version
 sudo apt-get install nodejs -y 
 sudo apt-get install npm -y
 sudo npm install -g bower
 sudo ln -s /usr/bin/nodejs /usr/bin/node
-#mysql -u root -p
-#CREATE DATABASE cc;
-#CREATE USER 'cc'@'localhost' IDENTIFIED BY 'Password';
-#FLUSH PRIVILEGES;
-#exit;
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-
-sudo rm app/config/parameters.yml
-
 sudo apt-get install php7.0-xml -y
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
@@ -35,7 +22,7 @@ sudo apt-get install php7.1-gd -y
 sudo apt-get install php7.1-mysql -y 
 cd campaignchain/
 sudo apt-get install unzip -y 
-unzip CampaignChain_Lalit_Nandan_Diwakar.zip
+sudo unzip CampaignChain_Lalit_Nandan_Diwakar.zip
 sudo apt-get install php7.2-intl -y
 sudo apt-get install php7.2-xml -y
 sudo apt-get  install php7.2-gd -y
