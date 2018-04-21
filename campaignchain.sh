@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sudo apt-get update
 sudo apt-get upgrade 
 sudo git clone https://lalitnandandiwakar@bitbucket.org/lalitnandandiwakar/campaignchain.git
@@ -71,3 +72,14 @@ composer install --ignore-platform-reqs
 sudo service apache2 stop
 
 sudo php app/console server:start 0.0.0.0:80
+=======
+a
+
+
+
+
+
+
+
+
+>>>>>>> 835170218fef281b4a8d33d1d4565ec2dea59a8d
