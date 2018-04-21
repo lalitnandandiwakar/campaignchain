@@ -1,4 +1,3 @@
-sudo apt-get update
 sudo git clone https://lalitnandandiwakar@bitbucket.org/lalitnandandiwakar/campaignchain.git
 sudo apt-get install php -y
 sudo apt-get install php-json -y
